@@ -94,7 +94,7 @@ module.exports = function() {
   var TorControlPort = {
     password: "", // password for ControlPort
     host: 'localhost',
-    port: controlPort || 9051,
+    port: 9051,
 
     /**
      * @param {Array.<string>} commands - array of commands to send to the ControlPort
